@@ -1,0 +1,339 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    min-height: 86vh;
+    /* width: 80vw; */
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 85vh;
+    align-items: stretch; */
+
+    /* max-height: 100%; */
+    /* padding: 5px;
+    margin: 5px; */
+}
+
+.home__title {
+    color: rgb(75, 75, 75);
+}
+
+.home__kiri {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.home__header__kiri {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home__title {
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 35px;
+    box-shadow: 1px 1px 4px rgb(183, 196, 223);
+    /* font-size: 1.2vw; */
+}
+
+.home__date {
+    background-color: white;
+    padding: 10px;
+    padding-right: 15px;
+    text-align: center;
+    margin-right: 10px;
+    /* border-end-end-radius: 35px;
+    border-end-start-radius: 35px; */
+    border-top-right-radius: 35px;
+    box-shadow: 1px 1px 4px rgb(183, 196, 223);
+    font-size: 0.9em;
+}
+
+.hk {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* align-content: flex-end; */
+    justify-content: space-evenly;
+}
+
+.hk__header {
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 0px;
+    background-color: white;
+    color: rgb(75, 75, 75);
+    border-radius: 10px;
+    box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.24);
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.hk_header_text {
+    align-self: center;
+}
+
+.hkh_gambar {
+    /* position: static; */
+    width: 50%;
+}
+
+
+.jk__laporan__text {
+    font-size: 1.3vw;
+    margin: 10px;
+}
+
+.hk__laporan__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.home__kanan {
+    flex: 0.4;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 247, 255);
+    border-radius: 20px;
+    margin: 5px;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.233);
+}
+
+.home__header__kanan {
+    flex: 0.05;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: white; */
+    border-radius: 50px;
+    margin: 5px 10px 0px 10px;
+}
+
+.home__user {
+    position: relative;
+    display: inline-block;
+}
+
+.home__user__btn {
+    background-color: white !important;
+    padding: 5px !important;
+    text-transform: capitalize !important;
+    text-align: end !important;
+    border-radius: 50px !important;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.233) !important;
+
+}
+
+.home__header__dokter {
+    display: flex;
+    flex-direction: row;
+}
+
+.homeH__dokter__content {
+    background-color: white !important;
+    padding: 5px !important;
+    text-transform: capitalize !important;
+    text-align: start !important;
+    border-radius: 50px !important;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.233) !important;
+}
+
+.home__header__text {
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: normal !important;
+    letter-spacing: -1px !important;
+    font-size: 12px !important;
+}
+
+.dropdown-content {
+    /* opacity: 0; */
+    width: 70%;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    padding: 5px 0px;
+    border-radius: 0px 0px 20px 20px;
+    z-index: 2;
+    animation: drop 0.4s;
+}
+
+@keyframes drop {
+    from {
+        opacity: 0;
+        height: 0;
+    }
+
+    to {
+        opacity: 1;
+        height: 100%;
+    }
+}
+
+.untukClose {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.dropdown-content-hide {
+    display: none;
+}
+
+.dropdown-button {
+    width: 100% !important;
+}
+
+.MuiButton-sizeSmall {
+    width: 10px !important;
+}
+
+.antrian {
+    flex: 0.95;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: -1px 1px 5px rgba(100, 100, 100, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.antrian__content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.antrian__opsi {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: -1px 1px 5px rgba(100, 100, 100, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.antrian__nomber {
+    background-color: rgba(100, 100, 100, 0.1);
+    border-radius: 10px;
+    flex: 1;
+    display: grid;
+    place-items: center;
+}
+
+.nomber__header {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+/* .antrian__nomber h3 {
+    background-color: rgba(0, 255, 21, 0.5);
+    border: black solid;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    width: 2em;
+    align-content: center;
+    height: 2em;
+    padding: 10px;
+    border-radius: 50%;
+} */
+
+.antrian__tombol {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.antrian__tombol .MuiButton-root {
+    width: 90%;
+}
+
+.antrian__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.antrian__content__list {
+    flex: 1;
+}
+
+.antrian__list {
+    height: 100%;
+    width: 100%;
+}
+
+.antrian__buka {
+    background-image: url('../../img/bg_antrian.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    /* padding: 10px; */
+}
+
+.antrian__buka__content {
+    padding: 10px;
+}
+
+.colSegera {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0px 5px 0px 5px !important;
+    height: 20px !important;
+    font-size: 12px !important;
+    /* background-color: rgb(200, 0, 0) !important; */
+    border-radius: 50px !important;
+    color: white !important;
+    text-transform: capitalize !important;
+}
+
+.colMenunggu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    height: 20px;
+    font-size: 12px;
+    /* background-color: rgb(0, 200, 0); */
+    border-radius: 50px;
+    color: white;
+}
+
+/* .card__kiri__ikon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+
+/* ==== ==== ADMIN ==== ==== */
+
+.kanan__admin {
+    overflow: auto;
+    /* flex: 0.95; */
+    height: 69vh;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: -1px 1px 5px rgba(100, 100, 100, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}

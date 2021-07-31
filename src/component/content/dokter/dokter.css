@@ -1,0 +1,119 @@
+.dokter {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.dokter__header {
+    flex: 0.1;
+    margin: 5px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+.dokter__content {
+    flex: 0.9;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.dataAda_on {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataAda_on_kiri {
+    flex: 0.88;
+}
+
+.dataAda_on_kanan {
+    flex: 0.1;
+}
+
+.form__control__dokter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.modal__tambah__dokter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add__form__dokter {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_gambar__dokter {
+    opacity: 0;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    height: 94%;
+    width: 67%;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.input_gambar__dokter:hover {
+    opacity: 1;
+    z-index: 2;
+}
+
+.input_gambar_tambah__dokter {
+    opacity: 0;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    height: 92%;
+    width: 27%;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.input_gambar_tambah__dokter:hover {
+    opacity: 1;
+    z-index: 2;
+}
+
+.input_gambar_icon__dokter {
+    position: absolute;
+    left: 43%;
+    bottom: 43%;
+
+}
+
+.input_gambar_file__dokter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    opacity: 0;
+}

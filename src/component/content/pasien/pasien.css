@@ -1,0 +1,74 @@
+.pasien {
+    display: flex;
+    flex-direction: column;
+    min-height: 86vh;
+}
+
+.pasien__header {
+    /* height: 40%; */
+    flex: 0.05;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    color: rgb(75, 75, 75);
+    border-radius: 50px;
+    box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.24);
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.pasien__content {
+    /* height: 40%; */
+    flex: 0.95;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: white;
+    color: rgb(75, 75, 75);
+    border-radius: 20px 20px 40px 40px;
+    box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.24);
+    justify-content: center;
+    padding: 10px;
+}
+
+.pasein__content__header {
+    flex: 0.05;
+    display: flex;
+    flex-direction: row;
+}
+
+.tombol {
+    border-radius: 50px !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+
+}
+
+.pasein__content__list {
+    flex: 0.95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+}
+
+.pasien__list {
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    width: 100%;
+}
+
+.tmb_tab {
+    width: 1px !important;
+    border-radius: 30px !important;
+}
+
+/* Untuk Filter Grid */
+div[role="tooltip"] {
+    top: -60px !important;
+}
